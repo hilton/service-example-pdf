@@ -5,9 +5,9 @@ import java.awt.*;
 /**
  * Decorator for constructing colours from hex colour strings, e.g. ff0000 (red).
  */
-class HexColor extends Color {
+class HexColour extends Color {
 
-  HexColor(final String hexColorCode) {
-    super(Integer.parseInt(hexColorCode, 16));
+  HexColour(final String hexColourCode) {
+    super(Integer.parseInt(hexColourCode, 16));
   }
 }

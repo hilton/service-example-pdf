@@ -8,12 +8,12 @@ import org.apache.pdfbox.pdmodel.*;
 /**
  * Creates a one-page PDF with a blank page in the given colour, e.g. ff0000 (red).
  */
-public class ColorPdf {
+public class ColourPdf {
 
-  private String hexColorCode;
+  private String hexColourCode;
 
-  public ColorPdf(final String hexColorCode) {
-    this.hexColorCode = hexColorCode;
+  public ColourPdf(final String hexColourCode) {
+    this.hexColourCode = hexColourCode;
   }
 
   /**
@@ -24,7 +24,7 @@ public class ColorPdf {
       final PDPage page = new PDPage();
       document.addPage(page);
       final PDPageContentStream contents = new PDPageContentStream(document, page);
-      contents.setNonStrokingColor(new HexColor(hexColorCode));
+      contents.setNonStrokingColor(new HexColour(hexColourCode));
       contents.addRect(0, 0, page.getMediaBox().getWidth(), page.getMediaBox().getHeight());
       contents.fill();
       contents.close();
