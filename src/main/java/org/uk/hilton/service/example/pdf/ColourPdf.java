@@ -1,4 +1,4 @@
-package io.rockscript.example.pdf;
+package org.uk.hilton.service.example.pdf;
 
 import java.io.IOException;
 import java.io.OutputStream;

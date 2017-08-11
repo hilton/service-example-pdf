@@ -1,4 +1,4 @@
-package io.rockscript.example.pdf;
+package org.uk.hilton.service.example.pdf;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
