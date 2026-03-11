@@ -10,7 +10,7 @@ import org.apache.pdfbox.pdmodel.*;
  */
 public class ColourPdf {
 
-  private String hexColourCode;
+  private final String hexColourCode;
 
   public ColourPdf(final String hexColourCode) {
     this.hexColourCode = hexColourCode;
