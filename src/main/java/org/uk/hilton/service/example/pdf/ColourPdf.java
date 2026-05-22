@@ -19,7 +19,7 @@ public class ColourPdf {
   /**
    * Renders the PDF to the given output stream.
    */
-  public void render(final OutputStream output) throws IOException {
+  public void render(OutputStream output) throws IOException {
     try (final PDDocument document = new PDDocument()) {
       final PDPage page = new PDPage();
       document.addPage(page);

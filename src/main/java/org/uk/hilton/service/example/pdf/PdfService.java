@@ -13,7 +13,7 @@ import static spark.Spark.get;
  */
 public class PdfService {
 
-  public static void main(final String[] args) throws IOException {
+  public static final void main(final String[] args) throws IOException {
     get("/colour/:code", PdfService::createColourPdf);
   }
 
