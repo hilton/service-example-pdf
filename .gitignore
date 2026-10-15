@@ -2,3 +2,7 @@
 *.iml
 *.pdf
 target
+.DS_Store
+.java
+.jdks
+.m2
